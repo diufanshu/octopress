@@ -12,3 +12,6 @@
     {% include post/skyshare.html %}
   {% endif %}
 </div>
+{% if site.sky_share %}
+    {% include post/skyshare.html %}
+{% endif %}

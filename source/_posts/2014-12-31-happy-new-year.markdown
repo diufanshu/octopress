@@ -7,4 +7,4 @@ categories:
 - test
 author: sky
 ---
-This is sky's first blog with octpress, have fun ^-^
+This is sky's first blog with octopress, have fun ^-^
