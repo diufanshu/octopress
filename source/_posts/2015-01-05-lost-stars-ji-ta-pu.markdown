@@ -9,7 +9,7 @@ categories:
 ---
 ## Lost Stars
 Adam Levine -- *Begin Again*
-
+<!--more-->
 ||||
 |-|-|-|
 |**Famj7**|**Famj7**|
@@ -19,7 +19,7 @@ Adam Levine -- *Begin Again*
 |**Em**|**Famj7**|
 |hand let's see where we wake up to|morrow. Best laid |
 |**Em**|**Famj7**|
-|plans sometimes it's just a one night|stand. I'd be |
+|plans sometimes it's just a one night|stand. I'd be | 
 |**Em**|**Famj7**|
 |damned Cupid's demanding back his |arrow. So let's get|
 |**G**|**G7**|

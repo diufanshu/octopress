@@ -8,3 +8,4 @@ categories:
 author: sky
 ---
 This is sky's first blog with octopress, have fun ^-^
+<!--more-->
