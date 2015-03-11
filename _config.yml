@@ -68,7 +68,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #duoshuo_short_name: skyoctpressblo
 
 # share
-sky_share: true
+#sky_share: true
 
 # Github repositories
 github_user:
@@ -98,8 +98,8 @@ github_skip_forks: true
 #delicious_count: 3
 
 # Disqus Comments
-#disqus_short_name:
-#disqus_show_comment_count: false
+disqus_short_name: skyoctopress
+disqus_show_comment_count: true
 
 # Google Analytics
 #google_analytics_tracking_id:
