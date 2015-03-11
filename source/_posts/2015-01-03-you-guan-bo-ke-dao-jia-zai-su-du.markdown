@@ -3,7 +3,7 @@ layout: post
 title: "有关博客的加载速度"
 date: 2015-01-03 21:34:00 +0800
 comments: true
-categories: octopress
+categories: [blog,配置]
 ---
 ## 起因
 有童鞋反应说加载速度很慢，这是一个关于举着保护旗号却在做愚蠢的事的悲伤的故事。
