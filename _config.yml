@@ -4,9 +4,9 @@
 
 url: http://diufanshu.github.io
 title: Sky's Octopress Blog
-subtitle: A blogging framework for hackers.
+subtitle: Living, Learning and Thinking
 author: Sky Chan
-simple_search: https://wen.lu/search
+simple_search: https://google.com/search
 description: What is the description?
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -17,7 +17,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:
+subscribe_email: 
 # RSS feeds can list your email address if you like
 email:
 
@@ -71,17 +71,17 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #sky_share: true
 
 # Github repositories
-github_user:
-github_repo_count: 0
-github_show_profile_link: true
-github_skip_forks: true
+#github_user: diufanshu
+#github_repo_count: 5
+#github_show_profile_link: true
+#github_skip_forks: true
 
 # Twitter
 #twitter_user:
 #twitter_tweet_button: false
 
 # Google +1
-#google_plus_one: false
+#google_plus_one: true
 #google_plus_one_size: medium
 
 # Google Plus Profile
@@ -105,4 +105,4 @@ disqus_show_comment_count: true
 #google_analytics_tracking_id:
 
 # Facebook Like
-#facebook_like: false
+#facebook_like: true
