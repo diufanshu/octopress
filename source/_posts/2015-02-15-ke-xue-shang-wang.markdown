@@ -108,6 +108,14 @@ __代理端口__: 8087
 
 	zimofanqiang|zimofanqiang1|zimofanqiang10|zimofanqiang11|zimofanqiang12|zimofanqiang13|zimofanqiang14|zimofanqiang15|zimofanqiang16|zimofanqiang17|zimofanqiang18|zimofanqiang19|zimofanqiang2|zimofanqiang20|zimofanqiang21|zimofanqiang22|zimofanqiang23|zimofanqiang24|zimofanqiang3| zimofanqiang4|zimofanqiang5|zimofanqiang6|zimofanqiang7|zimofanqiang8|zimofanqiang9|zhangnraka|zhangnraka1|zhangnraka10| ​
 
+#### 福利更新
+
+	kqshu00|kqshu01|kqshu02|kqshu03|kqshu04|kqshu05|kqshu06|kqshu07|kqshu08|kqshu09|kqshu10|kqshu11a|kqshu12|kqshu13|kqshu14|kqshu15|kqshu16|kqshu17|kqshu18|kqshu19|kqshu20|kqshu21|kqshu22|kqshu23|kqshu24
+	
+## IP 更新
+
+经常使用得同学会发现，一段时间后goagent 里面满是黄色红色，这是因为IP 被墙了，仅仅更新goagent 有时不是很有用，这个时候，需要一款叫做[GoGoTester](https://github.com/azzvx/gogotester) 的软件来测试仍然有效的IP ，把proxy.ini 里面[iplist] 项中的google_cn 和google_hk 替换即可。
+
 ## ShadowSocks
 
 需要有vps主机，可以找到很多免费的，用法比较简单。
@@ -116,6 +124,9 @@ __代理端口__: 8087
 
 Android 端利器，可以分享给同网段任意手机甚至是PC！
 
+## OpenVPN
+又一移动端利器，似乎要配合一些例如Ovpn之类对配置文件获取应用才能使用，Google Play 毫无压力。
+ 
 ## 保持更新
 
 前段段时间期末，一大堆作业，那次写的匆匆忙忙，这次稍作修改，持续保持更新！
