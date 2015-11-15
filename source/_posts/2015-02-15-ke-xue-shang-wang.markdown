@@ -5,7 +5,10 @@ date: 2015-02-15 10:51:58 +0800
 comments: true
 categories: [代理,网络]
 ---
-“科学上网是必须技能。”  —— sky chan
+{% blockquote Sky Chan %}
+科学上网是必须技能。
+{% endblockquote %}
+
 ##Goagent 的局域网/公网配置
 goagent 的强大不必多说了吧，项目在github托管:[goagent](https://github.com/goagent/goagent)，大家可以通过git clone 的方式来获得最新版本，常见问题在其[FAQ](https://github.com/goagent/goagent/blob/wiki/FAQ.md)里都有解答，“为什么要叫 goagent，而不叫 GoProxy？”“一开始叫 GoProxy 的，后来 Hewig 说软件名字带有 proxy 字样不祥，于是就改成了 goagent。”<!--more-->
 

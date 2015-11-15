@@ -20,23 +20,23 @@ $ sudo chmod +x connect
 $ mv connect ~/bin/connect
 ```
 然后在``` ~/.ssh/``` 中创建config 文件如下：
-	
-	ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p  
-	Host github.com
-	User git
-	Port 22
-	Hostname github.com
-	IdentityFile "/home/username/.ssh/id_rsa"
-	TCPKeepAlive yes
-	IdentitiesOnly yes
-
-	Host ssh.github.com
-	User git
-	Port 443
-	Hostname ssh.github.com
-	IdentityFile "/home/username/.ssh/id_rsa"
-	TCPKeepAlive yes
-	IdentitiesOnly yes
+{% codeblock ~/.ssh/config %}
+ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p
+    Host github.com
+    User git
+    Port 22
+    Hostname github.com
+    IdentityFile "/home/username/.ssh/id_rsa"
+    TCPKeepAlive yes
+    IdentitiesOnly yes
+    
+    Host ssh.github.com
+    User git
+    Port 443
+    Hostname ssh.github.com
+    IdentityFile "/home/username/.ssh/id_rsa"
+    TCPKeepAlive yes
+{% endcodeblock %}
 把其中的_username_ 替换为你的主机名字，_proxyhost:port_ 替换为你使用的代理地址和端口，然后测试了以下，可以使用代理走通ssh 通道了：
 
 ```
@@ -46,24 +46,25 @@ Hi diufanshu! You've successfully authenticated, but GitHub does not provide  ac
 
 ## 新的问题
 还没来得及高兴，就发现了一个小问题，我在实验室的另一台机器上部署了git 服务，供实验室内部使用，通过上面的修改，竟然不能在本地的git 服务器上提交代码了。也就是说这个小工具在走代理的时候不能走局域网了，当然最好的办法是把这个小工具的代码改一改，然后重新编译。然而经过一些折腾，发现有更好的办法，就是修改上面的config 文件：
-	
-	Host github.com
-		User git
-		Port 22
-		Hostname github.com
-		IdentityFile "/home/username/.ssh/id_rsa"
-		TCPKeepAlive yes
-		IdentitiesOnly yes
-		ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p  
+{% codeblock ~/.ssh/config %}
+Host github.com
+    User git
+    Port 22
+    Hostname github.com
+    IdentityFile "/home/username/.ssh/id_rsa"
+    TCPKeepAlive yes
+    IdentitiesOnly yes
+    ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p  
 
-	Host ssh.github.com
-		User git
-		Port 443
-		Hostname ssh.github.com
-		IdentityFile "/home/username/.ssh/id_rsa"
-		TCPKeepAlive yes
-		IdentitiesOnly yes
-		ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p  
+Host ssh.github.com
+    User git
+    Port 443
+    Hostname ssh.github.com
+    IdentityFile "/home/username/.ssh/id_rsa"
+    TCPKeepAlive yes
+    IdentitiesOnly yes
+    ProxyCommand /home/username/bin/connect -S proxyhost:port %h %p  
+{% endcodeblock %}
 
 这么改的话，只有当请求github.com 和 ssh.github.com 时会使用这个小工具进行代理。测试了一下，果然成功了。
 
