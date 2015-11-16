@@ -3,7 +3,7 @@ layout: post
 title: "Hello the first day"
 date: 2015-11-01 21:54:34 -0500
 comments: true
-categories:  [INFORMS 年会,会议,费城]
+categories:  [INFORMS 年会,学术,费城]
 ---
 ## 时令调整
 
