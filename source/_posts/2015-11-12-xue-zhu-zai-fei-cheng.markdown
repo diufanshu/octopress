@@ -55,7 +55,7 @@ categories:  [INFORMS 年会,学术,费城]
 
 没有搞懂预约和传统调度问题中的开工时间（release time）下的调度有什么区别，难道说预约的灵活性更好？并且感觉后面的求解设计也没有完全做完，即没有证明是可用的，也没有证明什么情况下不适用。但是基于预约的调度应该会很常见于云制造环境，可以看看相关文献。
 
-## Quantification and Monitoring on Ecommerce Reviews Dataset
+## Quantification and Monitoring on E-commerce Reviews Dataset
 
 #### 主讲人：Suoyuan Song
 
