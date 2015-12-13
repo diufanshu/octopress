@@ -14,3 +14,16 @@ categories: [音乐外链,陳綺貞]
 网易云音乐这次出现了陳綺貞明星会客室，正好拿来测试一下他们提供的音乐外链。
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="http://music.163.com/outchain/player?type=3&id=15167013&auto=0&height=66"></iframe>
+
+__歌曲列表（8首歌）__
+
+|||
+|-|-|
+|1| 别送我回家(Live)|
+|2| 家(Live)|
+|3| 沙漏(Live)|
+|4| 失败者的飞翔(Live)|
+|5| 太阳(Live)|
+|6| 鱼(Live)|
+|7| 雨水一盒(Live)|
+|8| Peace & Revolution(Live)|
