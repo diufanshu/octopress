@@ -26,7 +26,7 @@ imap ˆ <Plug>Tex_InsertItemOnThisLine
 {% codeblock .vimrc %}
 function ComplieWithXeTeX()
     let oldRule = g:Tex_CompileRule_pdf
-    let g:Tex_CompileRule_pdf = 'xelatex --synctex=-1 -src-specials -interac    tion=nonstopmode $*'
+    let g:Tex_CompileRule_pdf = 'xelatex --synctex=-1 -src-specials -interaction=nonstopmode $*'
     call Tex_RunLaTeX()
     let g:Tex_CompileRule_pdf = oldRule
 endfunction
@@ -54,7 +54,7 @@ map <Leader>lg :<C-U>call CompileWithLatexmk()<CR>
 {% codeblock .vimrc %}
 function ComplieWithXeTeX()
     let oldRule = g:Tex_CompileRule_pdf
-    let g:Tex_CompileRule_pdf = 'latexmk --synctex=-1 -src-specials -interac    tion=nonstopmode $*'
+    let g:Tex_CompileRule_pdf = 'latexmk --synctex=-1 -src-specials -interaction=nonstopmode $*'
     call Tex_RunLaTeX()
     let g:Tex_CompileRule_pdf = oldRule
 endfunction
