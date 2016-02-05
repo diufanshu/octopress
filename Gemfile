@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://mirrors.ustc.edu.cn/rubygems/"
 
 group :development do
   gem 'rake', '~> 10.0'
